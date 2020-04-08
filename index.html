@@ -1,4 +1,3 @@
-# VGPages.github.io
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,76 +7,103 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+  <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
-body, html {
-  height: 100%;
-  line-height: 1.8;
-}
+    body, html {
+      height: 100%;
+      line-height: 1.8;
+    }
 
-/* Full height image header */
-.bgimg-1 {
-  background-position: center;
-  background-size: cover;
-  background-image: url("https://scontent.fbkk2-7.fna.fbcdn.net/v/t1.0-9/20525603_1976630215884307_7130676370234865907_n.jpg?_nc_cat=108&_nc_sid=05277f&_nc_eui2=AeH_JO_dId74N0kZU7pGt1bXri4dENRuYRBnFZweHxbhers86MKU4N5IvqLmYCbu_kHbwonD3rbe9qxOQR4j8R6tIuEWOsaBKt70MogafM8SlA&_nc_ohc=DPbkgO9xrjsAX_OPlYz&_nc_ht=scontent.fbkk2-7.fna&oh=1a17ff6e7aa5473d2d04730ed64c91be&oe=5EABD850");
-  min-height: 100%;
-}
+    /* Full height image header */
+    .bgimg-1 {
+      background-position: center;
+      background-size: cover;
+      background-image: url("https://scontent.fbkk2-7.fna.fbcdn.net/v/t1.0-9/20525603_1976630215884307_7130676370234865907_n.jpg?_nc_cat=108&_nc_sid=05277f&_nc_eui2=AeH_JO_dId74N0kZU7pGt1bXri4dENRuYRBnFZweHxbhers86MKU4N5IvqLmYCbu_kHbwonD3rbe9qxOQR4j8R6tIuEWOsaBKt70MogafM8SlA&_nc_ohc=DPbkgO9xrjsAX_OPlYz&_nc_ht=scontent.fbkk2-7.fna&oh=1a17ff6e7aa5473d2d04730ed64c91be&oe=5EABD850");
+      min-height: 100%;
+    }
 
-.w3-bar .w3-button {
-  padding: 16px;
-}
+    .w3-bar .w3-button {
+      padding: 16px;
+    }
 
-.bg{
-    position: relative;
-}
+    .bg{
+        position: relative;
+    }
 
-.flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 200px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
+    .flip-card {
+      background-color: transparent;
+      width: 300px;
+      height: 200px;
+      border: 1px solid #f1f1f1;
+      perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    }
 
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
+    /* This container is needed to position the front and back side */
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+    }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
 
-/* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
+    /* Position the front and back side */
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden; /* Safari */
+      backface-visibility: hidden;
+    }
 
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
+    /* Style the front side (fallback if image is missing) */
+    .flip-card-front {
+      background-color: #bbb;
+      color: black;
+    }
 
-/* Style the back side */
-.flip-card-back {
-  background-color: #bbb;
-  color: white;
-  transform: rotateY(180deg);
-}
+    /* Style the back side */
+    .flip-card-back {
+      background-color: #bbb;
+      color: white;
+      transform: rotateY(180deg);
+    }
 
-</style>
+    .marq{
+      margin-left: 500px;
+    }
+    
+    .chalarm{
+      margin-left: 600px;
+    }
+    @media screen and (max-width:800px) {
+      .left, .main, .right {
+        width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+      }
+
+      .marq{
+        margin-left: 190px;
+        font-size: 10px;
+      }
+
+      .marz{
+        width: 200px;
+        height: 250px;
+        margin: 0 auto;
+      }
+
+      .chalarm{
+        margin-left: 150px;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -127,7 +153,7 @@ body, html {
 <div class="w3-container" style="padding:128px 16px;" id="about" > 
   <h3 class="w3-center">ABOUT THE TEAM</h3>
   <p class="w3-center w3-large">The Team That We Do</p>
-  <div class="w3-row-padding w3-center" style="margin-top:64px; margin-left: 500px;">
+  <div class="w3-row-padding w3-center marq" style="margin-top:64px;">
     <div class="w3-quarter">
         <img src="https://www.flaticon.com/premium-icon/icons/svg/2215/2215995.svg"/ style="width: 90px; height: 90px;">
       <p class="w3-large">Fifa Online 4</p>
@@ -165,8 +191,8 @@ body, html {
       <!--<p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our E-sport Team</a></p>-->
     </div>
     <div class="w3-col m6">
-        <img class="w3-image w3-round-large bg" src="https://scontent.fbkk2-8.fna.fbcdn.net/v/t1.15752-9/91463867_2913808182179134_5174462051443015680_n.png?_nc_cat=100&_nc_sid=b96e70&_nc_eui2=AeHFscjpYdvAR9ccQKPs7J5BLnrSJPkR8XD7Q7tPxPzumlDiyn2aYvfVosNdMw0k1eMVFDUFipd4qKAT5CFyztQRxQff8l8yOtQ8_lXbzSXLaQ&_nc_ohc=lhq-7OKHZZAAX80QH30&_nc_ht=scontent.fbkk2-8.fna&oh=5b9efd74439c574f040395d04b4847b8&oe=5EAB3288" alt="Buildings" width="250" height="250">
-        <img class="w3-image w3-round-large bg" src="https://scontent.fbkk2-6.fna.fbcdn.net/v/t1.15752-9/58667575_406345246588792_8818834328579473408_n.png?_nc_cat=107&_nc_sid=b96e70&_nc_eui2=AeHgcv1UG5AVF_wStUbuf_BwMgiidS6snvCjIh37uwxtG5L6XkrV7CEfqkkfFxtN0W69ZGnu2RdB9TTUJLn6Fly5OGrF9hN1-r2fwcw9edqjdg&_nc_ohc=xyC_z6Kz9g4AX_e5C9R&_nc_ht=scontent.fbkk2-6.fna&oh=5dc332b45df007676ad5e3dc7e498f4c&oe=5EABBD53" alt="Buildings" style="margin-left: 100px;" width="350" height="350">
+        <!--<img class="w3-image w3-round-large bg" src="https://scontent.fbkk2-8.fna.fbcdn.net/v/t1.15752-9/91463867_2913808182179134_5174462051443015680_n.png?_nc_cat=100&_nc_sid=b96e70&_nc_eui2=AeHFscjpYdvAR9ccQKPs7J5BLnrSJPkR8XD7Q7tPxPzumlDiyn2aYvfVosNdMw0k1eMVFDUFipd4qKAT5CFyztQRxQff8l8yOtQ8_lXbzSXLaQ&_nc_ohc=lhq-7OKHZZAAX80QH30&_nc_ht=scontent.fbkk2-8.fna&oh=5b9efd74439c574f040395d04b4847b8&oe=5EAB3288" alt="Buildings" width="250" height="250">-->
+        <img class="w3-image w3-round-large bg marz" src="https://scontent.fbkk2-6.fna.fbcdn.net/v/t1.15752-9/58667575_406345246588792_8818834328579473408_n.png?_nc_cat=107&_nc_sid=b96e70&_nc_eui2=AeHgcv1UG5AVF_wStUbuf_BwMgiidS6snvCjIh37uwxtG5L6XkrV7CEfqkkfFxtN0W69ZGnu2RdB9TTUJLn6Fly5OGrF9hN1-r2fwcw9edqjdg&_nc_ohc=xyC_z6Kz9g4AX_e5C9R&_nc_ht=scontent.fbkk2-6.fna&oh=5dc332b45df007676ad5e3dc7e498f4c&oe=5EABBD53" alt="Buildings" style="margin-left: 100px;" width="350" height="350">
     </div>
   </div>
 </div>
@@ -183,7 +209,7 @@ body, html {
           <h3>Fifa Online 4</h3>
           <p class="w3-opacity">Football E-sport Team</p>
           <p>-</p>
-          <!--<p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-eye"></i> View</button></p>-->
+          <p><button onclick="window.location.href = './fo4.html;" class="w3-button w3-light-grey w3-block"><a href="./fo4.html"><i class="fa fa-eye"></i> View</a></button></p>
         </div>
       </div>
     </div>
@@ -239,7 +265,7 @@ body, html {
   <br>
   <br>
   <br>
-  <div class="flip-card" style="margin-left: 600px;">
+  <div class="flip-card chalarm">
     <div class="flip-card-inner">
       <div class="flip-card-front">
         <img src="https://scontent.fbkk2-8.fna.fbcdn.net/v/t1.15752-9/91463867_2913808182179134_5174462051443015680_n.png?_nc_cat=100&_nc_sid=b96e70&_nc_eui2=AeHFscjpYdvAR9ccQKPs7J5BLnrSJPkR8XD7Q7tPxPzumlDiyn2aYvfVosNdMw0k1eMVFDUFipd4qKAT5CFyztQRxQff8l8yOtQ8_lXbzSXLaQ&_nc_ohc=lhq-7OKHZZAAX80QH30&_nc_ht=scontent.fbkk2-8.fna&oh=5b9efd74439c574f040395d04b4847b8&oe=5EAB3288" alt="Charlam Shop" style="width:300px;height:300px;">
